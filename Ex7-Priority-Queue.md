@@ -13,14 +13,12 @@ To formulate the C code to display the elements of the priority queue after inse
 ```
 ## Program:
 ```
-/*
 Program to o display the elements of the priority queue after insertion and deletion operation
 Developed by: Suman G
 RegisterNumber: 212223240163
 
-/*#include <stdio.h> 
-int size = 0; 
-*/ 
+#include <stdio.h> 
+int size = 0;  
 void printArray(int array[], int size) 
 { 
 int i; 
@@ -30,7 +28,6 @@ printf("%d ",array[i]);
 } 
 printf("\n"); 
 }
-*/
 ```
 
 ## Output:
